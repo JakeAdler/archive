@@ -1,0 +1,4 @@
+node_modules/
+/plates/
+/src/
+.env

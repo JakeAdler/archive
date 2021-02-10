@@ -1,0 +1,18 @@
+button {
+    background-color: red;
+
+}
+.Game {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 5vh;
+    padding: 30px;
+    border: 10px solid #92B4A7;
+    border-radius: 20px;
+    background-color: #F3F9D2;
+    box-shadow: 10px 10px 10px #000000;
+}
+.dogCard {
+    height: 200px;
+    width: 300px;
+}

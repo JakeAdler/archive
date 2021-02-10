@@ -1,0 +1,25 @@
+.textInput {
+    width: 500px;
+    height: 45px;
+    margin: 5px auto;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.submitBtn {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: #87dc60;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 3px 3px #00000065;
+    cursor: pointer;
+}
+.submitBtn:focus {
+    outline: none;
+}

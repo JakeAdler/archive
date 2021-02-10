@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #7D938A;
+}
+
+.wrapper {
+  padding: 50px;
+}
+
+a {
+  font-size: 2em;
+  color: #00B7FF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00B7FF;
+}
+
+button, #getSavedBtn {
+  background-color: #368F8B;
+  padding: 5px 10px;
+  margin: 15px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: #000000;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 5em;
+  padding-top: 25px;
+}
+
+.articleLink {
+  width: 500px;
+  height: 100px;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: #A8C686;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.article {
+  padding: 25px;
+  margin-top: 25px;
+  width: 700px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #246A73;
+}
+
+.saveArticle {
+  font-size: 1em;
+  color: #B9D6F2;
+}
+
+.commentBtn {
+  font-size: 1em;
+  color: #B9D6F2;
+}

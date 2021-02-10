@@ -1,0 +1,19 @@
+.Result {
+    width: 600px;
+    
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #00000060;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.resultText {
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: left;
+}
+img {
+    margin-top: 6px;
+    margin-right: 10px;
+}

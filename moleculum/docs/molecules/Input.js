@@ -1,0 +1,1 @@
+export { Input } from '../../src/components/molecules/index';

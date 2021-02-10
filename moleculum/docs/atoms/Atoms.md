@@ -1,0 +1,1 @@
+[Atoms](http://bradfrost.com/blog/post/atomic-web-design/#atoms) are the fundamental building blocks of all components. Atoms in moleculum are customizable primitives with lightly opinionated defaults, built on top of [Styled-System](https://styled-system.com/) and [Styled-Components](https://www.styled-components.com/).

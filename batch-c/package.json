@@ -1,0 +1,40 @@
+{
+  "name": "batch-c",
+  "version": "0.0.13",
+  "description": "📦 Batch convert image file types while maintaining file structure.",
+  "homepage": "https://github.com/JakeAdler/batch-c",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run clean && npm i && npm run babel",
+    "clean": "rm -rf dist && rm -rf node_modules && rm -rf plates",
+    "dev": "npm run babel && node dist/index.js",
+    "babel": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "dependencies": {
+    "async-mkdirp": "^1.2.7",
+    "chalk": "^2.4.2",
+    "inquirer": "^6.5.0",
+    "is-invalid-path": "^1.0.2",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.0",
+    "sharp": "^0.23.0",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "keywords": ["batch", "convert", "convert images", "webp", "jpg", "png"],
+  "author": {
+    "name": "Jake Adler",
+    "url": "https://github.com/JakeAdler/"
+  },
+  "engines": { "node": ">=8.0.0"},
+  "license": "ISC",
+  "bin": {
+    "batch-c": "./dist/index.js"
+  }
+}

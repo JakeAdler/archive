@@ -1,0 +1,35 @@
+{
+  "name": "boilerlib",
+  "version": "0.0.58",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run clean && npm i && npm run babel",
+    "clean": "rm -rf dist && rm -rf node_modules && rm -rf plates",
+    "dev": "npm run babel && node dist/index.js",
+    "babel": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.0",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.6.3",
+    "simple-git": "^1.124.0",
+    "yargs": "^13.3.0",
+    "yargs-interactive": "^2.1.0"
+  },
+  "bin": {
+    "boil": "./dist/index.js"
+  }
+}

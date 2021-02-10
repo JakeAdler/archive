@@ -1,0 +1,12 @@
+.card-img-top {
+    height: 150px;
+    width: 150px;
+}
+.card {
+    display: inline-block;
+}
+.card-title {
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}

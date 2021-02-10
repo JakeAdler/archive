@@ -1,0 +1,24 @@
+[
+   {
+       "name": "The Apple Pan",
+       "location": {
+           "type": "Point",
+           "coordinates": [-118.356156, 34.048423]
+        }    
+   },
+   {
+       "name": "Bubba Gump Shrimp",
+       "location": {
+           "type": "Point",
+           "coordinates": [-118.451189, 34.015799]
+       }
+
+   },
+   {
+       "name": "Korean BBQ",
+       "location": {
+           "type": "Point",
+           "coordinates": [-118.296939, 34.063721]
+       }
+   }
+]

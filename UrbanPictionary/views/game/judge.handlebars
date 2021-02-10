@@ -1,0 +1,25 @@
+{{> title-html}}
+
+<div class="container-fluid">
+  <div>
+    <div class="d-flex align-items-center mx-auto" id="roundInfoContainer">
+    <div id="roundInfo" class="d-flex flex-row justify-content-between col-sm-8 mx-auto">
+      {{> round-info }}
+    </div>
+    </div>
+
+    <div class="d-flex flex-row flex-wrap canvasContainer justify-content-around">
+      {{#each players}}
+         <canvas class="judgeViewCanvas" id="{{this.uuid}}" 
+         data-displayName="{{this.displayName}}"></canvas>
+      {{/each}}
+    </div>
+
+  </div>
+  {{> chat}}
+  <div id="slideInWinner"><h1 id="winnerName"></h1></div>
+</div>
+{{> firebase-init }}
+{{> round-manager }}
+
+<script src="/assets/js/judge.js"></script>
